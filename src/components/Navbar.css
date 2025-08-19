@@ -1,7 +1,11 @@
 .navbar {
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
     align-items: center;
     color: #ff6060;
     font-weight: 700;
+}
+
+.navbar_logo{
+    margin-right: auto;
 }
