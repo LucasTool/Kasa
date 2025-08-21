@@ -5,6 +5,7 @@
   box-sizing: border-box;
   border-radius: 40px;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .banner img{

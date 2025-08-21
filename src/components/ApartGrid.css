@@ -1,0 +1,11 @@
+.grid {
+    background-color: rgb(232, 228, 228);
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 4rem;
+    
+}
+
