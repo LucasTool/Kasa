@@ -2,13 +2,13 @@
     background-color: rgb(238, 238, 238);
     border-radius: 25px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    flex-wrap: wrap;
+    grid-template-columns: repeat(350px 350px 350px);
     gap: 50px;
     justify-items: center;
     margin-bottom: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+    justify-content: space-between;
   
     @media (max-width: 768px) {
         grid-template-columns: 1fr;
