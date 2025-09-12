@@ -12,20 +12,31 @@
   
       li {
         a {
-          color: black;
+         
           font-size: 24px;
           font-weight: 500;
-  
-          &:hover {
-            color: black;
-          }
+          text-decoration: none;
+          color: #ff6060;
         }
-  
+         
         &.liActif {
           text-decoration: underline;
           text-underline-offset: 3px;
           text-decoration-thickness: 1.5px;
         }
+
+        &.accueil a,
+      &.apropos a {
+        color: #ff6060;
+        text-decoration: none; 
+      }
+
+      &:hover {
+        text-decoration: underline;
+        color: #ff6060;
+        text-underline-offset: 3px;
+        text-decoration-thickness: 1.5px;
+      }
       }
     }
   
@@ -56,6 +67,11 @@
           &.liActif {
             text-decoration-thickness: 1px;
           }
+
+          &.accueil a,
+      &.apropos a {
+        color: #ff6060;
+      }
         }
       }
   

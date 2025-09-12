@@ -1,20 +1,17 @@
 .cards {
     background-color: rgb(238, 238, 238);
     border-radius: 25px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 50px;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    justify-content: space-between;
+    margin: 0 auto 50px;
+    padding: 50px 50px;
    
    
   
     @media (max-width: 768px) {
-        grid-template-columns: 1fr;
-      padding: 0;
+      grid-template-columns: 1fr;
+      padding: 0 30px;
       background-color: transparent;
       gap: 20px;
       margin-bottom: 20px;

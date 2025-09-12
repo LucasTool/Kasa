@@ -1,4 +1,4 @@
-import './App.scss'
+import './Styles/App.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './Pages/About'
 import Home from './Pages/Home'

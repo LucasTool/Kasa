@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    min-width: 320px;
+  }
+  
+  main,
+  header {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+  align-self: center; 
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    body,
+    footer {
+      width: 100%;
+    }
+  
+    header,
+    main {
+      width: 90%;
+      margin: 0 auto; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    body,
+    header,
+    main {
+      width: auto;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+    header,
+    main {
+      width: 90%;
+      margin: 0 auto; 
+    }
+  }
