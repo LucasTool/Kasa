@@ -5,6 +5,8 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: black;
+   margin-top: auto;
+ 
 
     img{
         margin-bottom: 10px;
@@ -19,6 +21,7 @@ footer {
     }
   
     @media (max-width: 768px) {
+        
       p {
         font-size: 12px;
         width: 130px;

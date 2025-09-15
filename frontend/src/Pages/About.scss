@@ -1,9 +1,10 @@
 .aboutCollapseContainer {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
     margin: auto;
     max-width: 1088px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     gap: 30px;
   
     @media (max-width: 768px) {

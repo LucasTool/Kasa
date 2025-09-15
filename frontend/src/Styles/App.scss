@@ -1,16 +1,29 @@
+#root{
+  min-height: 100vh !important;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
 body {
     margin: 0;
     min-width: 320px;
+    min-height: 100vh;
   }
   
-  main,
-  header {
+  main {
     max-width: 1440px;
     margin: 0 auto;
     width: 100%;
+    flex: 1;
 }
 
 header {
+  max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
   align-self: center; 
 }
 
@@ -36,7 +49,8 @@ header {
       padding: 0;
       box-sizing: border-box;
     }
-  
+
+
     header,
     main {
       width: 90%;

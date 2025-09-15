@@ -9,6 +9,7 @@ import '../Pages/About.scss'
 const About = () => {
   return (
       <>
+    
           <Header />
           <main>
               <Banner />
@@ -34,6 +35,7 @@ const About = () => {
           </main>
           <Footer />
       </>
+      
   );
 };
 
