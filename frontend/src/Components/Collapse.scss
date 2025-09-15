@@ -19,16 +19,19 @@
       img {
         height: 20px;
         filter: brightness(0) invert(1);
-        transform: rotate(180deg);
         cursor: pointer;
+        transition: transform 300ms ease-in-out;
+        transform-origin: center center;
       }
   
-      .arrow {
-        transition: transform 300ms ease;
-  
-        &.Up {
+      .arrow.Up {
           transform: rotate(0deg);
         }
+
+      .arrow.Down{
+        transform: rotate(180deg);
+      }
+
       }
   
       @media (max-width: 768px) {
@@ -76,4 +79,4 @@
         font-size: 12px;
       }
     }
-  }
+  
